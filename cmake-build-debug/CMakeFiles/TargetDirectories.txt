@@ -1,0 +1,3 @@
+C:/CLionProjects/Relaxation/cmake-build-debug/CMakeFiles/Relaxation.dir
+C:/CLionProjects/Relaxation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/CLionProjects/Relaxation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
