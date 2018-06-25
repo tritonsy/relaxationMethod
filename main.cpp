@@ -12,8 +12,6 @@ int main() {
     f >> n;
     f >> eps;
     f >> omega;
-  //  double om;
-  //  cin >>om;
     double **a = new double *[n+1]; //Выделяем память под строки
     for (int i = 1; i <= n; i++)
         a[i] = new double[n+1];     //Под столбцы
@@ -38,7 +36,7 @@ int main() {
         norm=0;
         for (int i = 1; i <= n; ++i) {
             double sum = 0;
-            for (int j = 1; j <= n; ++j) {
+            for (int j = 2; j <= n; ++j) {
                 if (i != j) {
                     sum = sum + a[i][j] * x[j];
                 }
@@ -52,7 +50,6 @@ int main() {
         }
         k++;
     } while (norm > eps);
-    cout << norm <<endl;
 
     cout << "Iteration count: " << k << endl << "eps: " << eps << endl;
     norm=0;
